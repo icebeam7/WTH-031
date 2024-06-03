@@ -16,7 +16,7 @@ on:
 
   pull_request:
     branches: [ main ]
-    paths: Application/*
+    paths: Application/**
 
 jobs:
   build-and-test:
