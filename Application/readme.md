@@ -3,3 +3,5 @@ Sample app from: https://github.com/dotnet/AspNetCore.Docs/tree/master/aspnetcor
 Challenge 06 change
 
 Challenge 07 CI
+
+Challenge 09 Rules
