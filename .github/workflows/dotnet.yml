@@ -93,7 +93,7 @@ jobs:
 
       - uses: azure/webapps-deploy@v2
         with:
-          app-name: 't24r6lgxvtd56wthreg-dev'
+          app-name: 't24r6lgxvtd56-dev'
           images: ${{secrets.ACR_NAME}}/wth/razorcore:${{github.run_number}}
 
   deploy-to-test:
@@ -114,7 +114,7 @@ jobs:
 
     - uses: azure/webapps-deploy@v2
       with:
-        app-name: 't24r6lgxvtd56wthreg-test'
+        app-name: 't24r6lgxvtd56-test'
         images: ${{secrets.ACR_NAME}}/wth/razorcore:${{github.run_number}}
 
   deploy-to-prod:
@@ -135,5 +135,5 @@ jobs:
 
     - uses: azure/webapps-deploy@v2
       with:
-        app-name: 't24r6lgxvtd56wthreg-prod'
+        app-name: 't24r6lgxvtd56-prod'
         images: ${{secrets.ACR_NAME}}/wth/razorcore:${{github.run_number}}
